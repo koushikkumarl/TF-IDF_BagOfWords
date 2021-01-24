@@ -19,7 +19,7 @@ lemmatizer = WordNetLemmatizer()
 
 corpus = []
 
-# Stemming
+# Lemmatization
 for i in range(len(sentences)):
     sent = re.sub('[^a-zA-Z]', ' ', sentences[i])
     sent = sent.lower()
